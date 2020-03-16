@@ -1,0 +1,70 @@
+/* culture truck */
+.product-portfolio { height: 100vh;display: flex; }
+.culture-truck .website-wrap li{background-color: rgba(242, 10, 65, 0.80); border: 3px solid rgba(0, 0, 0, 0.80);}
+.mobile-slider{position: relative; text-align: center;}
+.mobile-slider figure{width: 250px; position: relative;z-index: 1; margin: 0 auto;}
+.mobile-slider figure img{display: inline-block; max-width: 100%;}
+.mobile-slider .flipster {position: absolute; top: 10px; left: 0; right: 0; height: 100% !important;}
+.mobile-slider .flip-items .flip-content{position: relative;}
+.mobile-slider .flipster img{width: 220px !important; box-shadow: -10px 10px 30px 1px rgba(0, 0, 0, .64) !important; -moz-box-shadow: -10px 10px 30px 1px rgba(0, 0, 0, .64) !important; -webkit-box-shadow: -10px 10px 30px 1px rgba(0, 0, 0, .64) !important; }
+.mobile-slider .flipster-carousel .flip-current img{box-shadow: none !important;}
+.mobile-slider .flipster-carousel .flip-next {transform: translateX(110%) translateZ(0) rotateY(0) scale(.7); opacity: 1;}
+.mobile-slider .flipster-carousel .flip-future {transform: translateX(200%) translateZ(0) rotateY(0) scale(.6); opacity: 1;}
+.mobile-slider .flipster-carousel .flip-past {transform: translateX(-200%) translateZ(0) rotateY(0) scale(.6); opacity: 1;}
+.mobile-slider .flipster-carousel .flip-prev {transform: translateX(-110%) translateZ(0) rotateY(0) scale(.7); opacity: 1;}
+.mobile-slider .flipster .flip-content .overlay {background-color: rgba(241, 10, 66, .4); transition: all .3s linear; top: 0; left: 0; right: 0; bottom: 0; z-index: 1; position: absolute;}
+.mobile-slider .flipster .flip-current .flip-content .overlay {background-color: transparent;}
+
+@media screen and (max-width:1169px) { 
+	.mobile-slider .flipster-carousel .flip-next {transform: translateX(105%) translateZ(0) rotateY(0deg) scale(0.7);}
+	.mobile-slider .flipster-carousel .flip-future {transform: translateX(187%) translateZ(0) rotateY(0deg) scale(0.6);}
+	.mobile-slider .flipster-carousel .flip-past {transform: translateX(-187%) translateZ(0) rotateY(0deg) scale(0.6);}	
+	.mobile-slider .flipster-carousel .flip-prev {transform: translateX(-105%) translateZ(0) rotateY(0deg) scale(0.7);}
+}
+
+@media screen and (max-width:1023px) { 
+	.mobile-slider .flipster img { width: 175px !important;}
+	.mobile-slider figure{width: 200px;}
+}
+
+@media screen and (max-width:991px) { 
+	.mobile-slider .flipster img {width: 150px !important;}
+	.mobile-slider figure {width: 170px;}
+}
+@media screen and (max-width:639px) { 
+	.mobile-slider .flipster img {width: 130px !important;}
+	.mobile-slider figure {width: 150px;}
+	.culture-truck-tech .tech-used-wrap li figure {width: 110px;}
+	.mobile-slider .flipster img {box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, .64) !important; -moz-box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, .64) !important; -webkit-box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, .64) !important;}
+}
+@media screen and (max-width:576px) { 
+	.mobile-slider .flipster-carousel .flip-prev {transform: translateX(-100%) translateZ(0) rotateY(0deg) scale(0.7);}
+	.mobile-slider .flipster-carousel .flip-next {transform: translateX(100%) translateZ(0) rotateY(0deg) scale(0.7);}
+	.mobile-slider .flipster-carousel .flip-future {transform: translateX(176%) translateZ(0) rotateY(0deg) scale(0.6);}
+	.mobile-slider .flipster-carousel .flip-past {transform: translateX(-176%) translateZ(0) rotateY(0deg) scale(0.6);}
+}
+@media screen and (max-width:480px) { 
+	.mobile-slider figure {width: 170px;}
+	.mobile-slider .flipster img {width: 150px !important;}
+	.mobile-slider .flipster-carousel .flip-next {transform: translateX(110%) translateZ(0) rotateY(0deg) scale(0.7);}
+	.mobile-slider .flipster-carousel .flip-future {transform: translateX(190%) translateZ(0) rotateY(0deg) scale(0.6);}
+	.mobile-slider .flipster-carousel .flip-past {transform: translateX(-190%) translateZ(0) rotateY(0deg) scale(0.6);}	
+	.mobile-slider .flipster-carousel .flip-prev {transform: translateX(-110%) translateZ(0) rotateY(0deg) scale(0.7);}
+}
+@media screen and (max-width:400px) {
+	.mobile-slider figure {width: 165px;}
+	.mobile-slider .flipster img {width: 145px !important;}
+	.mobile-slider .flipster-carousel .flip-future{transform: translateX(110%) translateZ(0) rotateY(-70deg) scale(0.65);}
+	.mobile-slider .flipster-carousel .flip-past{transform: translateX(-110%) translateZ(0) rotateY(70deg) scale(0.65);}
+	.mobile-slider .flipster-carousel .flip-prev{transform: translateX(-75%) translateZ(0) rotateY(70deg) scale(0.8);}
+	.mobile-slider .flipster-carousel .flip-next{transform: translateX(75%) translateZ(0) rotateY(-70deg) scale(0.8);}
+}
+@media screen and (max-width:359px) { 
+	.mobile-slider figure {width: 165px;}
+	.mobile-slider .flipster img {width: 145px !important;}	
+	.mobile-slider .flipster-carousel .flip-next {transform: translateX(80%) translateZ(0) rotateY(-65deg) scale(0.8);}
+	.mobile-slider .flipster-carousel .flip-future {transform: translateX(132%) translateZ(0) rotateY(-70deg) scale(0.65);}
+	.mobile-slider .flipster-carousel .flip-past {transform: translateX(-132%) translateZ(0) rotateY(70deg) scale(0.65);}
+	.mobile-slider .flipster-carousel .flip-prev {transform: translateX(-80%) translateZ(0) rotateY(65deg) scale(0.8);}
+}
+

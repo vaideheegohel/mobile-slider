@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" >
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+        <link rel="stylesheet" href="assets/css/slide.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+    </head>
+    <body>
+        <header>
+            
+        </header>
+        <section class="pad70 product-portfolio" style="background-image: url(assets/images/culturetruck-mobile-bg.jpg);">
+            <div class="container-fluid m-auto">
+                <div class="mobile-slider mar-top-50">
+                    <figure>
+                        <img src="assets/images/culturetruck-mobile-slider.png">
+                    </figure>
+                    <div class="flipster">
+                        <ul>
+                            <li>
+                                <img src="https://picsum.photos/300/651">
+                                <div class="overlay"></div>
+                            </li>
+                            <li>
+                                <img src="https://picsum.photos/300/652">
+                                <div class="overlay"></div>
+                            </li>
+                            <li>
+                                <img src="https://picsum.photos/300/653">
+                                <div class="overlay"></div>
+                            </li>
+                            <li>
+                                <img src="https://picsum.photos/300/654">
+                                <div class="overlay"></div>
+                            </li>
+                            <li>
+                                <img src="https://picsum.photos/300/655">
+                                <div class="overlay"></div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/slide.js"></script>
+    <script type="text/javascript">
+        $(window).on('load resize' , function(){
+            $(function(){ $(".flipster").flipster({ style: 'carousel', start: 0, enableMousewheel: false, }); });
+        });
+    </script>
+</body>
+</html>
